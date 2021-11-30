@@ -1,6 +1,12 @@
-.container{
-    border:2px solid blue
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Balsamiq+Sans&family=Bree+Serif&family=Crete+Round&family=Playfair+Display&family=Roboto:wght@300&family=Rubik&family=Varela&family=Varela+Round&family=Work+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Balsamiq+Sans&family=Bree+Serif&family=Crete+Round&family=Playfair+Display&family=Roboto:wght@300&family=Rubik:wght@300;400&family=Varela&family=Varela+Round&family=Work+Sans:wght@300&display=swap");
+
+.col-md-6 {
+    border: 2px solid red;
 }
-.col-md-6{
-    border:2px solid red
+.main-title {
+    font-family: "Bree Serif", serif;
+}
+.intro {
+    font-family: "Rubik", sans-serif;
 }
