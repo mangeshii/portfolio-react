@@ -1,12 +1,47 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Balsamiq+Sans&family=Bree+Serif&family=Crete+Round&family=Playfair+Display&family=Roboto:wght@300&family=Rubik&family=Varela&family=Varela+Round&family=Work+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Balsamiq+Sans&family=Bree+Serif&family=Crete+Round&family=Playfair+Display&family=Roboto:wght@300&family=Rubik:wght@300;400&family=Varela&family=Varela+Round&family=Work+Sans:wght@300&display=swap");
 
-.col-md-6 {
-    border: 2px solid red;
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-title {
     font-family: "Bree Serif", serif;
+    color:#feb633;;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
 }
 .intro {
     font-family: "Rubik", sans-serif;
+    color:white
+}
+.home-content{
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4rem 0 !important;
+}
+.hire-me{
+    border:3px solid #feb633;
+    background-color:#feb633;;
+    padding:12px 60px;
+    color:white;
+    font-size: 22px;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.hire-me:hover{
+    background-color: transparent;
+    border:3px solid #feb633;
+    color:white;
+    transition: .6s ease-in-out;
+}
+@media only screen and (max-width:767px){
+    .home-content{
+        padding:3rem 0
+    }
 }

@@ -1,5 +1,5 @@
 import "./Home.css";
-import home_image from "../Images/home-banner.png";
+import home_image from "../Images/home.png";
 const Home = () => {
     return (
         <>
@@ -12,6 +12,9 @@ const Home = () => {
                             I design and develop responsive, optimized and
                             efficient websites.
                         </h2>
+                        <div className="hire-btn">
+                            <button className="btn hire-me">Hire Me</button>
+                        </div>
                     </div>
                     <div className="col-md-5 home-banner-img">
                         <img

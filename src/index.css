@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* padding: 5rem 2rem; */
+  background-color: #2b2c2c !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media only screen and (max-width:1200px){
+  html{
+    font-size:95%
+  }
+}
+@media only screen and (max-width:992px){
+  html{
+    font-size:90%
+  }
+}
+@media only screen and (max-width:767px){
+  html{
+    font-size:85%
+  }
+  body{
+    padding: 7rem 3rem;
+  }
+}
+@media only screen and (max-width:552px){
+  html{
+    font-size:78%
+  }
+}
+@media only screen and (max-width:475px){
+  html{
+    font-size:72%
+  }
+}
+@media only screen and (max-width:350px){
+  html{
+    font-size:65%
+  }
 }
