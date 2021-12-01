@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Balsamiq+Sans&family=Bree+Serif&family=Crete+Round&family=Playfair+Display&family=Roboto:wght@300&family=Rubik&family=Varela&family=Varela+Round&family=Work+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Balsamiq+Sans&family=Bree+Serif&family=Crete+Round&family=Playfair+Display&family=Roboto:wght@300&family=Rubik:wght@300;400&family=Varela&family=Varela+Round&family=Work+Sans:wght@300&display=swap");
 
-.container{
+.home-wrapper{
+    background-color: #2b2c2c !important;
+}
+.container-fluid{
     height:100vh;
     display: flex;
     justify-content: center;
@@ -14,16 +17,19 @@
     font-weight: 700;
     letter-spacing: 1.5px;
 }
+.home-cont{
+    padding: 0 2rem;
+}
 .intro {
     font-family: "Rubik", sans-serif;
-    color:white
+    color:#cccccc
 }
 .home-content{
     text-align: start;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 4rem 0 !important;
+    padding: 4rem 1rem !important;
 }
 .hire-me{
     border:3px solid #feb633;
@@ -40,8 +46,26 @@
     color:white;
     transition: .6s ease-in-out;
 }
+.home-banner-img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.home-img{
+    border-radius: 50%;
+    height:20rem
+}
 @media only screen and (max-width:767px){
     .home-content{
-        padding:3rem 0
+        text-align:center;
     }
+
+}
+@media only screen and (max-width:300px){
+    .hire-me{
+        font-size: 1.5em;
+        padding:7px 60px;
+    }
+
 }
