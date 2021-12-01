@@ -14,11 +14,12 @@
     transform: translate(-50%, -50%);
     color: #cccccc;
     font-size: 3rem;
+    width:max-content
 }
 .hori-line {
     border-bottom: 4px solid #feb633;
     width: 50%;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
 }
 .about-info {
     display: flex;
@@ -27,10 +28,24 @@
     text-align: start;
     padding: 0 5rem;
 }
-.about-info h5 {
+.about-img{
+height:17rem;
+}
+.about-info h4 {
     line-height: 30px;
     letter-spacing: 0.2px;
     font-weight: 300;
     font-family: "Rubik", sans-serif;
     color: #9f9f9f;
+}
+
+@media only screen and (max-width:767px){
+    .about-heading {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #cccccc;
+        font-size: 3rem;
+    }
 }

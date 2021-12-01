@@ -15,18 +15,19 @@ const About = () => {
                             alt=""
                         />
                         <h1 className="about-heading">
-                            About Me<div className="hori-line"></div>
+                            About Me
+                        <div className="hori-line"></div>
                         </h1>
                     </div>
                     <div className="col-md-7 about-info">
-                        <h5>
+                        <h4>
                             I am a self-taught developer and I started my
                             journey past 1 year. At the moment I am tailoring my
                             skills on HTML, CSS, JavaScript, Bootstrap and
                             React. This gives me a lot of joy when I see my
                             progress, while I am learning and trying to take
                             action on what I have learned.
-                        </h5>
+                        </h4>
                     </div>
                 </div>
             </div>
