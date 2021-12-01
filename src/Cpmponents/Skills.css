@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@300;900&family=Balsamiq+Sans&family=Bree+Serif&family=Crete+Round&family=Playfair+Display&family=Roboto:wght@300&family=Rubik:wght@300;400&family=Varela&family=Varela+Round&family=Work+Sans:wght@300&display=swap");
+.skills-wrapper{
+    background-color: #2b2c2c;
+    color:white;
+    padding-bottom: 7rem;
+}
+.skills-header-container{
+    padding:3rem;
+    font-family: "Rubik", sans-serif;
+    color: #cccccc;
+    text-align: center;
+
+}
+.skills-header{
+    font-size: 3rem;
+    width:max-content;
+    margin: auto;
+
+}
+.hori-line-skills{
+    border:2px solid #feb633;
+    margin: .7rem auto;
+    width:60%
+}
+.skill-stack{
+    max-width: 1200px;
+    margin:3rem auto;
+}
+.skill-icon{
+height:6rem
+}
