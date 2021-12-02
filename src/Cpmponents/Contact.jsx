@@ -22,19 +22,45 @@ const Contact = () => {
                 <div className="social-icons">
                     <div className="cont">
                         <div className="icon-cont">
-                            <FaInstagram className="socio-icon" />
+                            <a
+                                href="https://www.instagram.com/mangeshipatil/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaInstagram className="socio-icon" />
+                            </a>
                         </div>
                         <div className="icon-cont">
-                            <FaLinkedinIn className="socio-icon" />
+                            <a
+                                href="https://www.linkedin.com/in/mangeshipatil/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaLinkedinIn className="socio-icon" />
+                            </a>
                         </div>
                         <div className="icon-cont">
-                            <FaGithub className="socio-icon" />
+                            <a
+                                href="https://github.com/mangeshii"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaGithub className="socio-icon" />
+                            </a>
                         </div>
                         <div className="icon-cont">
-                            <FaTwitter className="socio-icon" />
+                            <a href="https://twitter.com/mangeshi_patil">
+                                <FaTwitter className="socio-icon" />
+                            </a>
                         </div>
                         <div className="icon-cont">
-                            <GrMail className="socio-icon" />
+                            <a
+                                href="mailto:mangeshipatilll@gmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <GrMail className="socio-icon" />
+                            </a>
                         </div>
                     </div>
                 </div>
