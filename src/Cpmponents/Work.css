@@ -1,7 +1,5 @@
 .work-wrapper {
-    height: 100vh;
     background-color: #2b2c2c;
-
 }
 .work-header {
     color: #cccccc;
@@ -17,4 +15,33 @@
     border: 2px solid #feb633;
     margin: 0.7rem auto;
     width: 60%;
+}
+.work-container {
+    height:100%;
+    color:whitesmoke;
+    padding: 5rem 2rem 15rem 2rem;
+
+}
+.p-0{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.p-0 img{
+    height:15rem;
+    width:100%;
+    margin:0;
+    border-radius: 10px;
+}
+.work-cards{
+    width:1250px
+}
+@media only screen and (max-width:992px) {
+    .p-0 img{
+        height:20rem
+    }
+}
+@media only screen and (max-width:767px) {
+    .p-0 img{
+        height:15rem
+    }
 }
