@@ -1,0 +1,45 @@
+.contact-wrapper {
+    /* height: 70vh; */
+    background-color: #2b2c2c;
+    color: white;
+}
+.contact-logo {
+    padding: 5rem;
+}
+.contact-logo img {
+    height: 4rem;
+}
+.quote h2 {
+    font-weight: 200;
+}
+.social-icons {
+    padding: 4rem 0;
+}
+.icon-cont {
+    border: .4px solid #9f9f9f;
+    margin: 1rem;
+    border-radius: 50%;
+}
+.icon-cont:hover{
+    background-color: #feb633;
+    color:#2b2c2c;
+    border:.4px solid #feb633
+}
+.cont {
+    margin: auto;
+    display: flex;
+    width:fit-content;
+}
+.socio-icon {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+@media only screen and (max-width:320px){
+    .socio-icon{
+        margin:1rem
+    }
+    .icon-cont{
+        margin: .5rem;
+    }
+}
