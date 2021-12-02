@@ -14,34 +14,130 @@
 .hori-line-work {
     border: 2px solid #feb633;
     margin: 0.7rem auto;
-    width: 60%;
+    width: 40%;
 }
 .work-container {
-    height:100%;
-    color:whitesmoke;
-    padding: 5rem 2rem 15rem 2rem;
-
+    height: 100%;
+    color: whitesmoke;
+    padding: 0rem 2rem 5rem 2rem;
 }
-.p-0{
+.p-0 {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 10px;
+    position: relative;
+    /* position: relative;
+    display: inline-block; */
 }
-.p-0 img{
-    height:15rem;
-    width:100%;
-    margin:0;
-    border-radius: 10px;
+/* .p-0::after{
+    content: "";
+    border-radius: 6px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+
+} */
+.p-0 img {
+    height: 250px;
+    width: 100%;
+    margin: 0;
+    display: block;
+    border-radius: 6px;
+    filter: contrast(75%);
+    position: relative;
+    /* filter:brightness(52%) */
 }
-.work-cards{
-    width:1250px
+.work-cards {
+    width: 1250px;
 }
-@media only screen and (max-width:992px) {
-    .p-0 img{
-        height:20rem
+.see-more-container {
+    padding: 2rem 0 10rem 0;
+}
+.see-more {
+    border: 3px solid #feb633;
+    padding: 12px 70px;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+}
+
+.see-more:hover {
+    background-color: #feb633;
+    color: white;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    width: 75%;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #feb633;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+    overflow: hidden;
+}
+.p-0:hover .overlay {
+    height: 100%;
+    border-radius: 6px;
+}
+.overlay-text h6 {
+    width: 100%;
+}
+.visit {
+    border-radius: 25px;
+    padding: 0.4rem 2rem;
+    margin-top: 1rem;
+    border: 3px solid #FFF300;
+    background-color: transparent;
+    color: white;
+    box-shadow: 0 0 10px #FFF300;
+}
+.forward-icon{
+    color:white !important;
+    margin-left: .2rem;
+}
+@media only screen and (max-width: 767px) {
+    .p-0 img {
+        height: 200px;
     }
 }
-@media only screen and (max-width:767px) {
-    .p-0 img{
-        height:15rem
-    }
+
+/* .pokedex::after {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(4, 6, 37, 0.9) 0%,
+        rgba(1, 2, 19, 0.9) 100%
+    ) !important;
 }
+.randomquote::after{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(54, 154, 235, 0.9) 0%,
+        rgba(54, 63, 233, 0.9) 100%
+    ) !important;
+}
+.salonpage::after{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(141, 48, 228, 0.9) 0%,
+        rgba(83, 10, 80, 0.9) 100%
+    ) !important;
+}
+.todo::after{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(42, 58, 23, 0.651) 0%,
+        rgba(19, 42, 24, 0.9) 100%
+    ) !important;
+} */
