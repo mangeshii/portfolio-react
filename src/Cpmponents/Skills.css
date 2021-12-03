@@ -40,3 +40,6 @@ height:5rem
 .p-1{
     margin:20px 30px
 }
+.skill-icon:hover{
+    opacity: .8;
+}
