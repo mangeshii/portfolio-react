@@ -5,9 +5,22 @@ import { useState } from "react";
 
 const NavBar = () => {
     const [hamburgerMenu, setHamburgerMenu] = useState(false);
+    const [navBar, setNavBar] = useState(false);
+
+    const changeBackground = () => {
+        console.log(window.scroll);
+        if (window.scrollY >= 50) {
+            setNavBar(true);
+        } else {
+            setNavBar(false);
+        }
+    };
+
+    window.addEventListener("scroll", changeBackground);
+
     return (
         <>
-            <nav className="nav-wrapper">
+            <nav className={navBar ? "nav-wrapper active" : "nav-wrapper"}>
                 <div className="logo-wrapper">
                     <img className="img-fluid logo" src={logo} alt="" />
                 </div>
