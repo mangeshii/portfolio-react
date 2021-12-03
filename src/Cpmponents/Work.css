@@ -53,6 +53,7 @@
 .see-more:hover {
     background-color: #feb633;
     color: white;
+    transition: .6s ease-in-out;
 }
 .overlay-text {
     position: absolute;

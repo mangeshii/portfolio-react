@@ -5,7 +5,7 @@ import NavBar from "./Navbar";
 const Home = () => {
     return (
         <>
-            <div className="home-wrapper">
+            <div className="home-wrapper" id="home">
                 <NavBar />
                 <div className="container-fluid">
                     <div className="row home-cont">

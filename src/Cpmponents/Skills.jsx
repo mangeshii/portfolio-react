@@ -11,7 +11,7 @@ import react from "../Images/atom.png";
 const Skills = () => {
     return (
         <>
-            <div className="skills-wrapper">
+            <div className="skills-wrapper" id="skills">
                 <div className="skills-header-container">
                     <h1 className="skills-header">
                         Skills

@@ -4,7 +4,7 @@ import about_img from "../Images/about_shap_bg.png";
 const About = () => {
     return (
         <>
-            <div className="about-wrapper">
+            <div className="about-wrapper" id="about">
                 <div className=" container">
                     <div className="row">
                         <div className="col-md-7 about-info">
