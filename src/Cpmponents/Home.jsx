@@ -1,12 +1,12 @@
 import "./Home.css";
 import home_image from "../Images/home.png";
-import Navbar from "./Navbar";
+import NavBar from "./Navbar";
 
 const Home = () => {
     return (
         <>
             <div className="home-wrapper">
-                <Navbar />
+                <NavBar />
                 <div className="container-fluid">
                     <div className="row home-cont">
                         <div className="col-md-5 home-banner-img">

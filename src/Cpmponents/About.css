@@ -2,7 +2,6 @@
     color: white;
     background-color: #333 !important;
     padding: 7rem 0;
-
 }
 .about-title {
     position: relative;
@@ -50,23 +49,23 @@
     background-color: #feb633;
     font-size: 17px;
 }
-.download-cv{
+.download-cv {
     border: 2px solid #feb633;
     background-color: transparent;
-    padding: 15px 30px ;
+    padding: 15px 30px;
     border-radius: 5px;
     font-size: 17px;
-    color:#feb633;
+    color: #feb633;
 }
-.download-cv:hover{
+.download-cv:hover {
     background-color: #feb633;
-    color:white;
-    transition: .6s ease-in-out;
+    color: white;
+    transition: 0.6s ease-in-out;
 }
-.view-work:hover{
+.view-work:hover {
     background-color: transparent;
-    color:white;
-    transition: .6s ease-in-out;
+    color: white;
+    transition: 0.6s ease-in-out;
 }
 .btns {
     width: 100%;
@@ -81,21 +80,20 @@
         order: 1;
     }
 }
-@media only screen and (max-width:400px){
-
-    .download-cv{
+@media only screen and (max-width: 400px) {
+    .download-cv {
         padding: 10px 15px;
     }
-    .view-work{
-        padding: 10px 25px
+    .view-work {
+        padding: 10px 25px;
     }
 }
 
-@media only screen and (max-width:340px){
-    .download-cv{
+@media only screen and (max-width: 340px) {
+    .download-cv {
         padding: 10px 10px;
     }
-    .view-work{
-        padding: 10px 20px
+    .view-work {
+        padding: 10px 20px;
     }
 }

@@ -58,6 +58,9 @@
     height:20rem
 }
 @media only screen and (max-width:767px){
+    .container-fluid{
+        padding-top: 8rem;
+    }
     .home-content{
         text-align:center;
     }
@@ -69,4 +72,9 @@
         padding:7px 40px;
     }
 
+}
+@media only screen and (max-width:374px){
+    .home-img{
+        height:18rem
+    }
 }
