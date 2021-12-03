@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <>
             <div className="home-wrapper">
-            <Navbar/>
+                <Navbar />
                 <div className="container-fluid">
                     <div className="row home-cont">
                         <div className="col-md-5 home-banner-img">
@@ -24,7 +24,11 @@ const Home = () => {
                                 efficient websites.
                             </h2>
                             <div className="hire-btn">
-                                <button className="btn hire-me">Hire Me</button>
+                                <a href="#contact">
+                                    <button className="btn hire-me">
+                                        Hire Me
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

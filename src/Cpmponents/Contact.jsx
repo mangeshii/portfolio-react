@@ -9,7 +9,7 @@ import { GrMail } from "react-icons/gr";
 const Contact = () => {
     return (
         <>
-            <div className="contact-wrapper">
+            <div className="contact-wrapper" id="contact">
                 <div className="contact-logo">
                     <img className="img-fluid" src={contact_logo} alt="" />
                 </div>

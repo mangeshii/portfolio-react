@@ -14,7 +14,7 @@
 .main-title {
     font-family: "Bree Serif", serif;
     color:#feb633;;
-    font-size: 4rem;
+    font-size: 3.7rem;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
@@ -61,12 +61,12 @@
     .home-content{
         text-align:center;
     }
+    .main-title{
+        font-size: 3.5rem;
 
-}
-@media only screen and (max-width:300px){
+    }
     .hire-me{
-        font-size: 1.5em;
-        padding:7px 60px;
+        padding:7px 40px;
     }
 
 }

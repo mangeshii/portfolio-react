@@ -10,7 +10,7 @@ import { FaChevronRight } from "react-icons/fa";
 const RecentWork = () => {
     return (
         <>
-            <div className="work-wrapper ">
+            <div className="work-wrapper" id="project">
                 <div className="work-header">
                     <h1>
                         My Recent Work

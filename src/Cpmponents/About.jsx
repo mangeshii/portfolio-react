@@ -17,8 +17,14 @@ const About = () => {
                                 trying to take action on what I have learned.
                             </h5>
                             <div className="btns">
-                                <button className="btn view-work">View Work</button>
-                                <button className="btn  download-cv">Download CV</button>
+                                <a href="#project">
+                                    <button className="btn view-work">
+                                        View Work
+                                    </button>
+                                </a>
+                                <button className="btn  download-cv">
+                                    Download CV
+                                </button>
                             </div>
                         </div>
                         <div className="col-md-5 about-title">
