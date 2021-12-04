@@ -1,5 +1,7 @@
 import "./About.css";
 import about_img from "../Images/about_shap_bg.png";
+import resume from "../Images/resume.jpg";
+import {AiOutlineDownload} from "react-icons/ai"
 
 const About = () => {
     return (
@@ -22,9 +24,14 @@ const About = () => {
                                         View Work
                                     </button>
                                 </a>
-                                <button className="btn  download-cv">
-                                    Download CV
-                                </button>
+                                <a
+                                    href={resume}
+                                    download
+                                >
+                                    <button className="btn download-cv">
+                                        Resume <AiOutlineDownload/>
+                                    </button>
+                                </a>
                             </div>
                         </div>
                         <div className="col-md-5 about-title">
