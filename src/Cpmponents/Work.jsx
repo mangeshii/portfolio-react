@@ -128,8 +128,7 @@ const RecentWork = () => {
                                     <div className="overlay-text">
                                         <h4>STOPWATCH</h4>
                                         <h6>
-                                            Suspendisse quis odio lobortis
-                                            laoreet libero quis varius tortor.
+                                            Stopwatch and countdown timer
                                         </h6>
                                         <a
                                             href="https://stopwatch-countdown.netlify.app/"
