@@ -41,21 +41,21 @@ const NavBar = () => {
                         }
                     >
                         <ul>
-                            <li className="links" onClick={()=>setHamburgerMenu(!hamburgerMenu)}>
+                            <li className="links">
                                 <a href="#home" className="links active" >
                                     Home
                                 </a>
                             </li>
-                            <li className="links" onClick={()=>setHamburgerMenu(!hamburgerMenu)}>
+                            <li className="links">
                                 <a href="#about">About</a>
                             </li>
-                            <li className="links" onClick={()=>setHamburgerMenu(!hamburgerMenu)}>
+                            <li className="links" >
                                 <a href="#project">Projects</a>
                             </li>
-                            <li className="links" onClick={()=>setHamburgerMenu(!hamburgerMenu)}>
+                            <li className="links">
                                 <a href="#skills">Skills</a>
                             </li>
-                            <li className="links" onClick={()=>setHamburgerMenu(!hamburgerMenu)}>
+                            <li className="links" >
                                 <a href="#contact">Contact</a>
                             </li>
                         </ul>
