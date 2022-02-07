@@ -26,15 +26,7 @@ const Contact = () => {
                 </div>
                 <div className="social-icons">
                     <div className="cont">
-                        <div className="icon-cont">
-                            <a
-                                href="https://www.instagram.com/mangeshipatil/"
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FaInstagram className="socio-icon" />
-                            </a>
-                        </div>
+                        
                         <div className="icon-cont">
                             <a
                                 href="https://www.linkedin.com/in/mangeshipatil/"
@@ -65,6 +57,15 @@ const Contact = () => {
                                 rel="noreferrer"
                             >
                                 <GrMail className="socio-icon" />
+                            </a>
+                        </div>
+                        <div className="icon-cont">
+                            <a
+                                href="https://www.instagram.com/mangeshipatil/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaInstagram className="socio-icon" />
                             </a>
                         </div>
                     </div>

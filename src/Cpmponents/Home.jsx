@@ -23,13 +23,13 @@ const Home = () => {
                                 I design and develop responsive, optimized and
                                 efficient websites.
                             </h2>
-                            <div className="hire-btn">
+                            {/* <div className="hire-btn">
                                 <a href="#contact">
                                     <button className="btn hire-me">
                                         Hire Me
                                     </button>
                                 </a>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

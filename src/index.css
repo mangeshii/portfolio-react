@@ -12,6 +12,17 @@ body {
 
 
 }
+::-webkit-scrollbar{
+  width:10px
+}
+::-webkit-scrollbar-track{
+
+  border-radius: 50%;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #feb633;
+  border-radius: 50%;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
