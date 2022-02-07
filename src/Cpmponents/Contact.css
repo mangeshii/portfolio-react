@@ -1,13 +1,19 @@
 .contact-wrapper {
-    /* height: 70vh; */
     background-color: #2b2c2c;
     color: white;
 }
-.contact-logo {
-    padding: 5rem;
+.contact-header-container{
+    padding: 3rem;
+    color: #cccccc;
+    display: inline-block;
 }
-.contact-logo img {
-    height: 4rem;
+.contact-header{
+    font-size: 3rem;
+}
+.hori-line-contact{
+    width:50%;
+    border:2px solid #feb633;
+    margin: .7rem auto;
 }
 .quote h2 {
     font-weight: 200;

@@ -10,9 +10,14 @@ const Contact = () => {
     return (
         <>
             <div className="contact-wrapper" id="contact">
-                <div className="contact-logo">
+                {/* <div className="contact-logo">
                     <img className="img-fluid" src={contact_logo} alt="" />
+                </div> */}
+                <div className="contact-header-container">
+                        <h1 className="contact-header">Contact</h1>
+                        <div className="hori-line-contact"></div>
                 </div>
+
                 <div className="quote">
                     <h2>
                         Living, learning, & leveling up <br />
