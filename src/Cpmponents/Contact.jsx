@@ -1,5 +1,4 @@
 import "./Contact.css";
-import contact_logo from "../Images/logo.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -10,9 +9,6 @@ const Contact = () => {
     return (
         <>
             <div className="contact-wrapper" id="contact">
-                {/* <div className="contact-logo">
-                    <img className="img-fluid" src={contact_logo} alt="" />
-                </div> */}
                 <div className="contact-header-container">
                         <h1 className="contact-header">Contact</h1>
                         <div className="hori-line-contact"></div>
