@@ -1,10 +1,10 @@
 import "./Work.css";
 import pokedex from "../Images/pokedex.png";
-import random from "../Images/random.png";
 import salon from "../Images/salon.png";
 import todo from "../Images/todo.png";
-import watch from "../Images/watch.png";
 import weather from "../Images/weather.png";
+import clock from "../Images/clock.png";
+import drum from "../Images/drum.png";
 import { FaChevronRight } from "react-icons/fa";
 
 const RecentWork = () => {
@@ -49,18 +49,15 @@ const RecentWork = () => {
                         </div>
                         <div className="col">
                             <div className="p-0 randomquote">
-                                <img src={random} alt="" />
+                                <img src={drum} alt="" />
                                 <div className="overlay">
                                     <div className="overlay-text">
-                                        <h4>RANDOM QUOTE GENERATOR</h4>
+                                        <h4>DRUM MACHINE</h4>
                                         <h6>
-                                            It is capable of pulling quotes
-                                            randomly from an API. It is also
-                                            capable of tweeting one of the
-                                            random quote to the twitter
+                                            It is a musical instrument with 9 clickable buttons and with 2 different modes
                                         </h6>
                                         <a
-                                            href="https://random-quote-generator-machine.netlify.app/"
+                                            href="https://drum-machine01.netlify.app/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
@@ -123,15 +120,15 @@ const RecentWork = () => {
                         </div>
                         <div className="col">
                             <div className="p-0 stopwatch">
-                                <img src={watch} alt="" />
+                                <img src={clock} alt="" />
                                 <div className="overlay">
                                     <div className="overlay-text">
-                                        <h4>STOPWATCH</h4>
+                                        <h4>POMODORO CLOCK</h4>
                                         <h6>
-                                            Stopwatch and countdown timer
+                                        It is a time management method based on 25-minute stretches of focused work broken by 5 minutes of breaks
                                         </h6>
                                         <a
-                                            href="https://stopwatch-countdown.netlify.app/"
+                                            href="https://pomodoroclockk.netlify.app/"
                                             target="_blank"
                                             rel="noreferrer"
                                         >
