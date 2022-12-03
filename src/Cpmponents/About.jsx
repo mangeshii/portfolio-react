@@ -1,6 +1,6 @@
 import "./About.css";
 import about_img from "../Images/about_shap_bg.png";
-import resume from "../Images/resume.jpg";
+import resume from "../Images/resume.png";
 import {AiOutlineDownload} from "react-icons/ai"
 
 const About = () => {
