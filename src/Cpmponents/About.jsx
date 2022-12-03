@@ -26,7 +26,7 @@ const About = () => {
                                 </a>
                                 <a
                                     href={resume}
-                                    download
+                                    download 
                                 >
                                     <button className="btn download-cv">
                                         Resume <AiOutlineDownload/>
